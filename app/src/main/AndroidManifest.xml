@@ -13,14 +13,25 @@
         android:theme="@style/Theme.Project_pnp_ngajar"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".movie_app.MovieActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".HitungSederhana"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".GridviewPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
